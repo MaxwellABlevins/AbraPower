@@ -289,7 +289,7 @@
   }
 
   @media only screen and (max-width: 1024px) {
-    .YourClass {
+    .ridPicture {
       display:none;
     }
     .bigwhensmall {

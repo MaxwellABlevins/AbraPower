@@ -64,7 +64,7 @@ export default function Services() {
               <AddRight>
                 <AddRightInner>
                   <div className="flexNullCenter">
-                    <AddImgWrapp1 className="flexCenter YourClass">
+                    <AddImgWrapp1 className="flexCenter ridPicture">
                       <img src={AddImage1} alt="office" style={{width: "315px" }}/>
                     </AddImgWrapp1>
                     <AddImgWrapp2>
@@ -72,10 +72,10 @@ export default function Services() {
                     </AddImgWrapp2>
                   </div>
                   <div className="flex">
-                    <AddImgWrapp1 className="YourClass">
+                    <AddImgWrapp1 className="ridPicture">
                       <img src={AddImage3} alt="office" style={{width: "320px" }}/>
                     </AddImgWrapp1>
-                    <AddImgWrapp2>
+                    <AddImgWrapp2 className="ridPicture">
                       <img src={AddImage4} alt="office" style={{width: "290px" }}/>
                     </AddImgWrapp2>
                   </div>

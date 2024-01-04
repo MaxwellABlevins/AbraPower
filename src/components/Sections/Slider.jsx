@@ -24,8 +24,8 @@ export default class AutoPlay extends Component {
       autoplay: true,
       autoplaySpeed: 3000,
       centerMode: true,
-      centerPadding: 100,
-      centerMargin:  100,
+      centerPadding: '100px',
+      centerMargin:  '100px',
       focusOnSelect: true,
       responsive: [
         {
@@ -61,7 +61,7 @@ export default class AutoPlay extends Component {
             centerMode: true,
             centerPadding: 80,
             centerMargin: 80,
-            slidesToShow: 1.4,
+            slidesToShow: 1,
             slidesToScroll: 1,
             swipeToSlide: true,
             focusOnSelect: true,
