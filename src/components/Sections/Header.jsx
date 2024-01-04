@@ -7,7 +7,7 @@ import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
+    <Wrapper id="home" className="container flexSpaceCenterM">
       <RightSide className="flex">
         <div>
           <h1 className="extraBold font80">Welcome to AbraPower</h1>
@@ -18,7 +18,7 @@ export default function Header() {
       </RightSide>
       <LeftSide>
         <ImageWrapper>
-          <Img className="radius8 fixH" src={HeaderImage} width={550} alt="office" style={{zIndex: 9}} />
+          <Img className="radius8" src={HeaderImage} width={550} alt="office" style={{zIndex: 9}} />
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
