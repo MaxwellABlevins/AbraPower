@@ -46,8 +46,9 @@ export default class AutoPlay extends Component {
           breakpoint: 600,
           settings: {
             centerMode: true,
-            centerPadding: 40,
-            slidesToShow: 2,
+            centerPadding: "80px",
+            centerMargin: "80px",
+            slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
             swipeToSlide: true,
@@ -58,10 +59,13 @@ export default class AutoPlay extends Component {
           breakpoint: 480,
           settings: {
             centerMode: true,
+            centerPadding: 80,
+            centerMargin: 80,
             slidesToShow: 1,
             slidesToScroll: 1,
             swipeToSlide: true,
             focusOnSelect: true,
+            
           }
         }
       ]
@@ -86,7 +90,9 @@ export default class AutoPlay extends Component {
                 Fine: 180 <br/>
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
-                </p></div> />
+                </p></div> 
+                className="Projectbox"
+                />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
           <ProjectBox
@@ -104,7 +110,7 @@ export default class AutoPlay extends Component {
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
                 </p></div>
-
+                className="Projectbox"
               />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
@@ -116,7 +122,7 @@ export default class AutoPlay extends Component {
                 <hr/>
                 Abrapower USA, Inc. continually strives to develop new techniques and products to better serve the industry in terms of price, quality and innovation.
                 </p></div>
-
+                className="Projectbox"
               />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
@@ -137,7 +143,7 @@ export default class AutoPlay extends Component {
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
                 </p></div>
-
+                className="Projectbox"
               />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
@@ -157,7 +163,7 @@ export default class AutoPlay extends Component {
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
                 </p></div>
-
+                className="Projectbox" 
               />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
@@ -178,7 +184,7 @@ export default class AutoPlay extends Component {
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
                 </p></div>
-
+                className="Projectbox"
               />
           </div>
           <div style={{ padding: "30px", margin: "50px"}} className="bigwhensmall">
@@ -197,7 +203,7 @@ export default class AutoPlay extends Component {
                 Medium: 100 <br/>
                 Coarse: 60 <br/>
                 </p></div>
-
+                className="Projectbox"
               />
           </div>
         </Slider>
